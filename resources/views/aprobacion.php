@@ -26,28 +26,28 @@
             </div>
 
  
-
-               <div id="transparenteselec" class="transparenteselec">
+             <div id="fondo" class="fondo">
                   
                     </div>
+              
                     
 
    <div id="metodo" class="metodo">
-                <p1 class="text">Seleccione la forma de registro</p1>
+                <p1 class="text">Tu solicitud ha sido enviada </p1>
+                <br>
+                  <p1 class="text"> y esta a la espera del la autorizacion</p1>
+                  <br>
+                  <p1 class="text"> Gracias por confiar en nosotros</p1>
+                     <br>
+                  <p1 class="text"> :)   El equipo de la cuponera SV</p1>
             </div>
                    
-              <form method="get" action="empresa">  
-            <div id="seleccionboton"> 
-            
-                      <input  type="submit" value="Registrarme como empresa" class="seleccionboton" >
+       
 
-                   </div>
-                  </form>
-
-              <form method="get" action="cliente">  
+              <form method="get" action="/">  
 
                     <div id="seleccionboton2"> 
-                      <input  type="submit" value="Registrarme como cliente" class="seleccionboton">
+                      <input  type="submit" value="Aceptar" class="seleccionboton">
 
 
 

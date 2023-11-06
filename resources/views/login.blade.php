@@ -36,21 +36,25 @@
                        <div id="logimg">
                     <img src="img/log.PNG" height="150px" width="150px" >
                     </div>
+
+                    <form action="" method = "POST" >
+                    {{csrf_field()}}
                                          <div id="loginput">
                 
                     <label for="usuario"><b>Usuario  </b></label>
 		    <input type="text" class="loginc" id="usuario" name="usuario" placeholder="Usuario">
                  
                       <label for="contra1"><b>Contraseña </b> </label>
-		    <input type="password" class="loginc" id="contra1" name="contra1" placeholder="Contraseña">
+		    <input type="password" class="loginc" id="password" name="password" placeholder="Contraseña">
 		  
 		    </div>
             <div id="loginboton"> 
                       <input  type="submit" value="login" class="botonlog">
+                         
 
 
                    </div>
-
+  </form >
                    
                 </div>
        
@@ -62,7 +66,7 @@
                     <img src="img/password.PNG" height="30px" width="30px" >
                     </div> 
     
-    
+  
 
 
 

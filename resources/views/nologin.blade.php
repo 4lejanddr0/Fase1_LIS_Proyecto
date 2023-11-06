@@ -26,35 +26,45 @@
             </div>
 
  
-
-               <div id="transparenteselec" class="transparenteselec">
+             <div id="fondo" class="fondo">
                   
                     </div>
+              
                     
 
    <div id="metodo" class="metodo">
-                <p1 class="text">Seleccione la forma de registro</p1>
+                <p1 class="text">Su usuario no esta </p1>
+                <br>
+                  <p1 class="text"> registrado :(</p1>
+                  <br>
+                  <p1 class="text"> Podes realizar tu registrado</p1>
+                     <br>
+                  <p1 class="text"> presionando en este boton</p1>
             </div>
                    
-              <form method="get" action="empresa">  
-            <div id="seleccionboton"> 
-            
-                      <input  type="submit" value="Registrarme como empresa" class="seleccionboton" >
+       
 
-                   </div>
-                  </form>
-
-              <form method="get" action="cliente">  
+              <form method="get" action="seleccion">  
 
                     <div id="seleccionboton2"> 
-                      <input  type="submit" value="Registrarme como cliente" class="seleccionboton">
+                      <input  type="submit" value="Registrarse" class="seleccionboton">
 
 
-
-                   
                 </div>
        
                   </form>
+
+                   <form method="get" action="login">  
+
+                    <div id="seleccionboton3"> 
+                      <input  type="submit" value="loguearse de nuevo" class="seleccionboton">
+
+
+                </div>
+       
+                  </form>
+
+
 
 
 

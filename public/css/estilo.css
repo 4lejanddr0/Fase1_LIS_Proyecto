@@ -417,3 +417,30 @@ div#transparenteselec {
     /*------------------------SELECCION-------------------------------------- */
 
 
+/*------------------------NOLOGIN-------------------------------------- */
+
+div#seleccionboton3 {
+    position: absolute;
+    top: 27.0em;
+    left: 38vw;
+
+}
+
+
+/*------------------------APROBACION-------------------------------------- */
+
+div#fondo {
+    position: absolute;
+    top: 9.0em;
+    left: 30vw;
+    width: 500px;
+    height: 350px;
+    background: black;
+    opacity: .5;
+}
+
+.fondo {
+    border-radius: 25px;
+}
+
+
